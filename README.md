@@ -51,6 +51,16 @@ $ docker-compose up -d nginx mysql phpmyadmin redis workspace
 
 ````
 
+### Testes com Postman
+ - Importe o arquivo [postman.json](https://github.com/ramersonrodrigues/laravel-api-desafio/blob/main/postman.json) para o postman
+ - Execute as requests(localhost/api)
+     - **POST** /posts/
+	 - **GET** /posts/id
+     - **GET** /posts
+     - **GET** /posts?tag=node
+	 - **PUT** /posts/id
+	 - **DELETE** /posts/id
+
 ### Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
