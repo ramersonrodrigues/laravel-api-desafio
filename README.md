@@ -27,7 +27,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/ramersonrodrigues/laravel-api-desafio.git
 
 # Acesse a pasta do projeto no terminal
-$ cd desafio-post
+$ cd laravel-api-desafio
 
 # Crie o arquivo de configuração .env, Laravel
 $ cp .env.example .env
