@@ -41,7 +41,7 @@ DB_USERNAME=default
 DB_PASSWORD=secret
 
 # Clone o repositório do Laradock
-$ git clone git clone https://github.com/Laradock/laradock.git
+$ git clone https://github.com/Laradock/laradock.git
 
 # Acesse a pasta do Laradock no terminal
 $ cd laradock
