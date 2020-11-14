@@ -19,7 +19,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 -  [Git](https://git-scm.com/)
 -  [Docker](https://www.docker.com/)
--  [Compose](https://getcomposer.org/)
+-  [Composer](https://getcomposer.org/)
 
 
 
