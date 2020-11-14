@@ -29,11 +29,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Clone o repositório do projeto
 $ git clone https://github.com/ramersonrodrigues/laravel-api-desafio.git
 
-# Acesse a pasta do projeto no terminal
-$ cd laravel-api-desafio && composer install
-
-# Crie o arquivo de configuração .env, Laravel
-$ cp .env.example .env
+# Acesse a pasta do projeto no terminal e algumas configurações
+$ cd laravel-api-desafio && composer install && php artisan key:generate && cp .env.example .env
 
 # Configure o mysql no arquivo .env
 DB_CONNECTION=mysql
@@ -46,11 +43,8 @@ DB_PASSWORD=secret
 # Clone o repositório do Laradock
 $ git clone https://github.com/Laradock/laradock.git
 
-# Acesse a pasta do Laradock no terminal
-$ cd laradock
-
-# Crie o arquivo de configuração .env, Laradock
-$ cp env-example .env
+# Acesse a pasta do Laradock no terminal e Crie o arquivo de configuração
+$ cd laradock && cp env-example .env
 
 # Inicie a aplicação com o docker compose
 $ docker-compose up -d nginx mysql phpmyadmin redis workspace 
