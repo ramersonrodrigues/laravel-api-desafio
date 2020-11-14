@@ -23,11 +23,31 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ### Executando a Aplicação
 
 ````bash
-# Clone este repositório
-git clone https://github.com/ramersonrodrigues/api-laravel-posts.git
+# Clone o repositório do projeto
+$ git clone https://github.com/ramersonrodrigues/api-laravel-posts.git
 
 # Acesse a pasta do projeto no terminal
-cd laradock
+$ cd desafio-post
+
+# Crie o arquivo de configuração .env, Laravel
+$ cp .env.example .env
+
+# Configure o mysql no arquivo .env
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=default
+DB_USERNAME=default
+DB_PASSWORD=secret
+
+# Clone o repositório do Laradock
+$ git clone git clone https://github.com/Laradock/laradock.git
+
+# Acesse a pasta do Laradock no terminal
+$ cd laradock
+
+# Crie o arquivo de configuração .env, Laradock
+$ cp env-example .env
 
 # Inicie a aplicação com o docker compose
 $ docker-compose up -d nginx mysql phpmyadmin redis workspace 
