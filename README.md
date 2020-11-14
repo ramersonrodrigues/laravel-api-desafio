@@ -30,7 +30,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/ramersonrodrigues/laravel-api-desafio.git
 
 # Acesse a pasta do projeto no terminal e algumas configurações
-$ cd laravel-api-desafio && composer install && php artisan key:generate && cp .env.example .env
+$ cd laravel-api-desafio && composer install && cp .env.example .env && php artisan key:generate 
 
 # Configure o mysql no arquivo .env
 DB_CONNECTION=mysql
