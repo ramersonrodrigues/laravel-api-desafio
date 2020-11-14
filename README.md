@@ -32,7 +32,7 @@ $ git clone https://github.com/ramersonrodrigues/laravel-api-desafio.git
 # Acesse a pasta do projeto no terminal e algumas configurações
 $ cd laravel-api-desafio && composer install && cp .env.example .env && php artisan key:generate 
 
-# Configure o mysql no arquivo .env
+# Configure o mysql no arquivo .env, setando os valores padrão do Laradock.
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
