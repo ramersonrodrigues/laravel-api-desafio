@@ -24,7 +24,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ````bash
 # Clone o repositório do projeto
-$ git clone https://github.com/ramersonrodrigues/api-laravel-posts.git
+$ git clone https://github.com/ramersonrodrigues/laravel-api-desafio.git
 
 # Acesse a pasta do projeto no terminal
 $ cd desafio-post
