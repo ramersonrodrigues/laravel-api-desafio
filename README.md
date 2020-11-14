@@ -20,8 +20,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 -  [Git](https://git-scm.com/)
 -  [Docker](https://www.docker.com/)
 -  [Composer](https://getcomposer.org/)
-
-
+-  [Postman](https://www.postman.com/)
 
 ### Executando a Aplicação
 
@@ -67,7 +66,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 -  [Laravel](https://laravel.com/)
 -  [Laradock - (nginx, mysql e phpmyadmin)](https://laradock.io/)
+-  [Postman](https://www.postman.com/)
+-  [Git](https://git-scm.com/)
 -  [Docker](https://www.docker.com/)
+-  [Composer](https://getcomposer.org/)
 
 ### Autor
 
