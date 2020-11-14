@@ -19,6 +19,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 -  [Git](https://git-scm.com/)
 -  [Docker](https://www.docker.com/)
+-  [Compose](https://getcomposer.org/)
+
+
 
 ### Executando a Aplicação
 
@@ -27,7 +30,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/ramersonrodrigues/laravel-api-desafio.git
 
 # Acesse a pasta do projeto no terminal
-$ cd laravel-api-desafio
+$ cd laravel-api-desafio && composer install
 
 # Crie o arquivo de configuração .env, Laravel
 $ cp .env.example .env
